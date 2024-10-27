@@ -1,0 +1,19 @@
+@media screen and (max-width:900px) {
+    .header-nav ul li a {
+        margin-left: 20px;
+        color: white;
+        font-size:18px
+    }
+    .header-btn-1,
+.header-btn-2 {
+    background-color: #E9BD8C;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 12px;
+    border: none;
+}
+}
+
+
