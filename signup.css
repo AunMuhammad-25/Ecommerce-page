@@ -40,7 +40,7 @@ body {
 }
 .input-group .fa {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 10px;
     transform: translateY(-50%);
     color: #E9BD8C;
@@ -72,6 +72,9 @@ color: #933c24;
 }
 .signUp-link p a:hover{
     text-decoration: underline;
+}
+#span1,#span2,#span3,#span4{
+    color: red;
 }
 .thanksyou{
     text-align: center;

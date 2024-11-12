@@ -39,7 +39,7 @@ body {
 }
 .input-group .fa {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 10px;
     transform: translateY(-50%);
     color: #E9BD8C;

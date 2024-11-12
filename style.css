@@ -10,12 +10,13 @@
 }
 .header-banner-main {
     background-image: url(./images/Rectangle\ 10.png);
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 30px;
     /* margin-bottom: 100px; */
-    height: 600px;
+    /* height: 600px; */
 }
 .header-top {
     display: flex;
@@ -258,7 +259,7 @@
     font-weight: 700;
 }
 .sec4-item-name ul li a:hover{
-    color: black;
+    /* color: black; */
     border-bottom: 6px solid #933C24;
     transition: all 0.3s ease-in-out;
 
@@ -390,7 +391,7 @@ margin-bottom: 7%;
 .myslider img{
     margin: 0 auto;
     width: 100%;
-    max-width: 930px;
+    max-width: 1100px;
     /* height: 100%; */
     max-height: 500px;
     /* background-size: cover;
@@ -419,7 +420,7 @@ margin-bottom: 7%;
     margin: 0 auto;
     width: 90%;
 }
-.section-7-header-logo h2 {
+.section-7-header-logo h2  a{
     color: #E9BD8C;
     font-size: 50px;
     font-family: "Sansita Swashed", system-ui;

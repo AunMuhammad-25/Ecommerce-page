@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto
+}
+header{
+    background-image: url(./images/Rectangle\ 10.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-bottom: 20px; */
+    margin-bottom: 3%;
+
+}
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+.header-logo h2 {
+    color: #E9BD8C;
+    font-family: "Sansita Swashed", system-ui;
+    font-size: 50px;
+}
+#homebtn {
+    color: #E9BD8C;
+}
+#homebtn:hover{
+    color: white;
+    transition: all 0.3s;
+}
+.header-nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.header-nav ul li a {
+    margin-left: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+}
+.header-nav ul li a:hover{
+    color: #E9BD8C;
+    transition: all 0.3s;
+
+}
+.header-btn-1,
+.header-btn-2 {
+    background-color: #E9BD8C;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 20px;
+    border: none;
+    text-decoration: none;
+
+
+}
+.header-btn-1 {
+    margin-right: 10px;
+}
+.header-btn-1:hover,
+.header-btn-2:hover{
+    color:white;
+    background-color: #933C24;
+    transition: all 0.5s;
+}
+/* ////////////////////////////////////////////////////////////// */
+.blog{
+    color:black;
+    font-family: "Sansita Swashed", system-ui;
+    font-size: 50px;
+    text-align: center;
+
+}
+/* ///////////////////////////////////////////////////////// */
+.section-5 {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    background-image: url(./images/Rectangle\ 41.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* padding-top: 50px;
+    padding-bottom: 25px; */
+    padding: 50px;
+}
+.section-5-heading h2 {
+    color: white;
+    font-family: "Sansita Swashed", system-ui;
+    font-size: 55px;
+    max-width: 350px;
+    margin: 0 auto;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.section-5-content p {
+    color: rgb(177, 175, 175);
+    font-size: 25px;
+    max-width: 350px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.section-5-btn {
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.section-5-btn a:hover {
+    background-color: #E9BD8C;
+    transition: all, 0.6s;
+    color: black;
+}
+.section-5-btn a {
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #933C24;
+    color: white;
+}
+/* /////////////////////////////////////////////////////////////////////////////// */
+.section-7 {
+
+    background-image: url(./images/Rectangle\ 75.png);
+    padding-bottom: 50px;
+    height: 500px;
+}
+.section-7-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    border-bottom: 1px solid rgb(99, 98, 98);
+    padding-bottom: 40px;
+    margin: 0 auto;
+    width: 90%;
+}
+.section-7-header-logo h2 {
+    color: #E9BD8C;
+    font-size: 50px;
+    font-family: "Sansita Swashed", system-ui;
+}
+.section-7-header-follow h2 {
+    color: #E9BD8C;
+
+    margin-left: 700px;
+    font-size: 20px;
+}
+.section-7-header-icon a i {
+    color: #E9BD8C;
+    margin-right: 30px;
+    font-size: 30px;
+}
+.sec7-content-main {
+    margin-top: 3%;
+}
+.sec7-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+}
+.recnews-card1 {
+    display: flex;
+    align-items: center;
+}
+.recnews-card1-data {
+    margin-left: 20px;
+}
+.recnews-card1-data h3 {
+    color: #E9BD8C;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.recnews-card1-data h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+}
+.recentnews h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.aboutus h2,
+.explore h2,
+#h2 {
+    color: #E9BD8C;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.aboutus a,
+.explore a {
+    line-height: 30px;
+    font-size: 18px;
+    color: white;
+}
+.section-7 p{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    /* padding-top: 160px; */
+    margin-top: 40px;
+}
